@@ -1,0 +1,11 @@
+//parse
+let jsonstring = `{"name":"anuja","age":23,"phno":9791539881,"address":"1/289 east street,vnr"}`;
+let object = JSON.parse(jsonstring);
+console.log(object.name)
+console.log(object.age)
+console.log(object.phno)
+console.log(object.address)
+//stringnify
+let obj = {name:"anuja",age:23};
+let jsonstring0 = JSON.stringify(object);
+console.log(jsonstring0)
