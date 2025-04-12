@@ -6,6 +6,16 @@ if(age>=23){
 else{
     console.log("you are an minor");
 }
+//one more example
+let israining = true;
+if(israining){
+    console.log("stay home");
+}
+else{
+    console.log("enjoy the sunshine")
+}
+
+
 //switch case
 let day = 5;
 switch(day){
@@ -48,6 +58,11 @@ switch (month){
 for (let i=1;i<=5;i++){
     console.log("count:"+i);
 }
+//one more example
+for (let i = 2; i <= 20; i += 2) {
+    console.log(i);
+  }
+  
 //while loop
 let count = 1;
 while(count<5){
