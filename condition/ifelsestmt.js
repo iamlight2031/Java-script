@@ -28,6 +28,22 @@ switch(day){
             console.log("no more days are found")
 }
 
+//more examp"le in switch case
+let month = "march";
+switch (month){
+     case "jan":
+     case "feb":
+     case "apr":
+         console.log("in this month there are 30 to 31 days");
+         break;
+     case "may":
+     case "june":
+     case "july":
+         console.log("in this month there is 30 days");
+         break;
+         default:
+             console.log("not a valid month");
+ }
 //for loop
 for (let i=1;i<=5;i++){
     console.log("count:"+i);
